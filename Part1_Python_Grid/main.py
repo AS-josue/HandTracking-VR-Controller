@@ -123,8 +123,12 @@ def process_hand_interactions(image, hand_landmarks, width, height):
             
             if angle > 180:
                 angle = 360 - angle
-    
-            cv2.putText(image, str(round(angle, 2)), tuple(np.multiply(b, [width, height]).astype(int)), 
+
+            # Extract X and Y coordinates by forcing standard int format
+            text_x = int(b[0] * width)
+            text_y = int(b[1] * height)
+
+            cv2.putText(image, str(round(angle, 2)), (text_x, text_y), 
                         cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2, cv2.LINE_AA)
                 
         board[object_position_x][object_position_y] = ' ' 
