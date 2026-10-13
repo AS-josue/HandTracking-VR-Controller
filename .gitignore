@@ -1,0 +1,13 @@
+# Environnements virtuels
+venv/
+env/
+
+# Fichiers de cache Python
+__pycache__/
+*.pyc
+
+# Dossier de sortie des captures de ton script
+Part1_Python_Grid/Output_images/
+
+# Fichiers système
+.DS_Store
