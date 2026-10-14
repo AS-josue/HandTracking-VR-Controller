@@ -39,4 +39,4 @@ To understand the logic behind the gesture recognition, here is the landmark top
 
 ## 📸 Demo
 
-*(`demo_python.gif` showing the pinch and the cursor moving on the grid)*
+![Python Grid Demo](../media/demo_python.gif)

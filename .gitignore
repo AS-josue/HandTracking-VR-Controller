@@ -11,3 +11,36 @@ Part1_Python_Grid/Output_images/
 
 # Fichiers système
 .DS_Store
+
+# --- UNITY ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]serSettings/
+
+# --- VISUAL STUDIO ---
+.vs/
+*.db
+
+# Fichiers de projet Visual Studio générés par Unity
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Fichiers de crash et logs
+sysinfo.txt
+crashlytics-build.properties
